@@ -1,17 +1,17 @@
 package vo;
 
 public class Jogo {
-    private String nome;
+    private String nomeJogo;
     private String plataforma;
     private String genero;
     private boolean disponibilidade;
 
-    public String getNome() {
-        return nome;
+    public String getNomeJogo() {
+        return nomeJogo;
     }
 
-    public void setNome(String nome) {
-        this.nome = nome;
+    public void setNomeJogo(String nomeJogo) {
+        this.nomeJogo = nomeJogo;
     }
 
     public String getPlataforma() {
